@@ -1,6 +1,6 @@
 {
   "name": "metsoui",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "My practise package to create a React component library",
   "author": "Mikko Metso",
   "license": "ISC",
@@ -23,18 +23,15 @@
     "build-pkg": "rollup -c",
     "start-pkg": "rollup -c -w"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "devDependencies": {
+    "react": "17.0.2"
   },
   "devDependencies": {
-    "react": "^16.14.0",
+    "react": "17.0.2",
     "@rollup/plugin-commonjs": "^20.0.0",
+    "@types/react": "^17.0.20",
     "@rollup/plugin-node-resolve": "^13.0.4",
     "@storybook/react": "^6.3.8",
-    "@types/react": "^17.0.20",
     "@types/react-transition-group": "^4.4.2",
     "@types/storybook__react": "^5.2.1",
     "rollup": "^2.56.3",
